@@ -1,0 +1,180 @@
+name: real
+description: RE❤L People, RE❤L Connections
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  after_layout: ^1.1.0
+  animated_radial_menu: ^0.0.1
+  auto_route: ^3.2.3+1
+  avatar_glow: ^2.0.2
+  awesome_notifications: ^0.6.21
+  bloc_test: ^9.0.1
+  bot_toast: ^4.0.1
+  bottom_picker: ^1.7.0
+  cloud_firestore: ^3.1.10
+  connectivity_plus: ^2.1.0
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  encrypt: ^5.0.1
+  equatable: ^2.0.3
+  firebase_auth: ^3.3.7
+  firebase_core: ^1.12.0
+  firebase_messaging: ^11.2.15
+  flip_card: ^0.6.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_form_builder: ^7.0.0
+  flutter_hooks: ^0.18.2+1
+  flutter_keyboard_visibility: ^5.2.0
+  flutter_nsfw: ^0.0.5
+  flutter_tindercard: ^0.2.0
+  font_awesome_flutter: ^9.2.0
+  form_builder_validators: ^7.2.0
+  freezed_annotation: null
+  google_fonts: ^2.3.1
+  google_ml_kit: ^0.7.3
+  http: ^0.13.4
+  image_picker: ^0.8.4+9
+  injectable: ^1.5.3
+  intl: ^0.17.0
+  intro_views_flutter: ^3.2.0
+  location: ^4.3.0
+  lottie: ^1.2.2
+  path_provider: ^2.0.9
+  permission_handler: ^9.2.0
+  pin_code_fields: ^7.3.0
+  platform_device_id: ^1.0.1
+  progress_indicators: ^1.0.0
+  provider: ^6.0.1
+  rxdart: ^0.27.3
+  scroll_snap_list: ^0.8.4
+  sms_autofill: ^2.2.0
+  syncfusion_flutter_gauges: ^19.4.55
+
+dev_dependencies:
+  auto_route_generator: null
+  build_runner: null
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  freezed: null
+  injectable_generator: null
+  intl_phone_number_input: null
+  json_serializable: null
+  libphonenumber: ^2.0.0
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: 'assets/launcher/launcher.png'
+
+module:
+  androidX: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/launcher/launcher.png
+    - assets/nsfw.tflite
+    #- assets/images/
+    - assets/images/splash_bg.png
+    - assets/images/get_started_bg.png
+    - assets/images/get_started_first_bg.png
+    - assets/images/get_started_second_bg.png
+    - assets/images/get_started_third_bg.png
+    - assets/images/gender_male.png
+    - assets/images/gender_female.png
+    - assets/images/gender_other.png
+    - assets/images/no_biz_man.png
+    - assets/images/no_biz_woman.png
+    - assets/images/athletic_man.png
+    - assets/images/athletic_woman.png
+    - assets/images/skinny_man.png
+    - assets/images/skinny_woman.png
+    - assets/images/average_man.png
+    - assets/images/average_woman.png
+    - assets/images/moreToLove_man.png
+    - assets/images/moreToLove_woman.png
+    - assets/images/dadbod_man.png
+    - assets/images/mombod_woman.png
+    - assets/images/no_biz_other.png
+    - assets/images/no_biz_otherw.png
+    - assets/images/athletic_other.png
+    - assets/images/athletic_otherw.png
+    - assets/images/skinny_other.png
+    - assets/images/skinny_otherw.png
+    - assets/images/average_other.png
+    - assets/images/average_otherw.png
+    - assets/images/moreToLove_other.png
+    - assets/images/moreToLove_otherw.png
+    - assets/images/dadbod_other.png
+    - assets/images/mombod_otherw.png
+    - assets/images/bmi_light.png
+    - assets/images/pointer.png
+
+    #- assets/icons/
+    - assets/icons/location_icon.png
+    - assets/icons/real_sticky_icon.png
+    #- assets/lottie/
+    - assets/lottie/loading.json
+    - assets/lottie/meter.json
+    - assets/lottie/sms_code.json
+    - assets/lottie/flying_heart.json
+    - assets/lottie/404_error_page.json
+    - assets/lottie/finding_your_matches.json
+    - assets/lottie/location_animated_face.json
+    - assets/lottie/location.json
+    - assets/lottie/nail_biting.json
+    - assets/lottie/tell_us_more.json
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

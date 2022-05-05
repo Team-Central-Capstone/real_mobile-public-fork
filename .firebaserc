@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "real--dating"
+  },
+  "targets": {
+    "real--dating": {
+      "hosting": {
+        "prod": [
+          "real-dating"
+        ]
+      }
+    }
+  }
+}
